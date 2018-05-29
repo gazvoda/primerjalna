@@ -37,3 +37,29 @@
     display: block;
     padding: 8px;
 }
+
+#bodycontainer {
+	float: left;
+	margin: 0 1.5%;
+	width: 63%;
+	background-color: #ffffff !important;
+}
+
+#sidebarcontainer {
+	float: right;
+	margin: 0 1.5%;
+	width: 30%;
+	background-color: #ffffff !important;
+}	
+
+body {
+	background-color: red;
+}
+
+#sidebar {
+	padding: 15px;
+}
+
+#main {
+	padding: 15px;
+}
