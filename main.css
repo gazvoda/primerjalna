@@ -1,12 +1,13 @@
 #header {
     width: 100%;
-	margin-bottom: 1.5%;
     background-color: #ffffff;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.10);
+    position: fixed;
 }
 
 #navbar {
     width: 1100px;
-    height: 85px;
+    height: 72px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -23,20 +24,24 @@
     float: right;
 }
 
-.menu ul {
+ul.menu {
     list-style-type: none;
     display: inline;
     margin: 0;
     padding: 0;
 }
 
-.menu li {
+ul.menu > li {
     float: left;
+    padding-top: 28px;
+    padding-bottom: 28px;
 }
 
 .menu a {
+    text-decoration: none;
     display: block;
-    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #bodycontainer {
@@ -49,12 +54,13 @@
 	float: right;
 	width: 30%;
 	background-color: #ffffff !important;
-}	
+}
 
 #body {
 	margin-left: auto;
     margin-right: auto;
 	width: 1100px;
+    padding-top: 100px;
 }
 
 body {
