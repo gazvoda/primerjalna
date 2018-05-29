@@ -1,3 +1,15 @@
 #navbar {
     background-color: #4286f4 !important;
 }
+
+#bodycontainer {
+	float: left;
+	width: calc(100% - 200px);
+	background-color: #ffffff !important;
+}
+
+#sidebarcontainer {
+	float: right;
+	width: 200px;
+	background-color: #ffffff !important;
+}	
