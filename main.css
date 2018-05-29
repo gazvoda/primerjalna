@@ -1,3 +1,39 @@
+#header {
+    width: 100%;
+    background-color: #ffffff;
+}
+
 #navbar {
-    background-color: #4286f4 !important;
+    width: 1000px;
+    height: 85px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#image, #nav-logo {
+    float: left;
+    height: inherit;
+}
+
+#items {
+    float: right;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    display: block;
+    padding: 8px;
 }
