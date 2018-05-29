@@ -2,292 +2,186 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet"> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Primerjalna književnost</title>
 
-<head>
-	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet"> 
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Primerjalna književnost</title>
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="generator" content="Open Journal Systems 2.4.4.1" />
-<!--
-	<link rel="icon" href="https://ojs.zrc-sazu.si/public/journals/8/journalFavicon_sl_SI.ico" type="image/x-icon" />	<link rel="stylesheet" href="https://ojs.zrc-sazu.si/lib/pkp/styles/pkp.css" type="text/css" />
-	<link rel="stylesheet" href="https://ojs.zrc-sazu.si/lib/pkp/styles/common.css" type="text/css" />
-	<link rel="stylesheet" href="https://ojs.zrc-sazu.si/styles/common.css" type="text/css" />
-	<link rel="stylesheet" href="https://ojs.zrc-sazu.si/styles/compiled.css" type="text/css" />
-	Base Jquery -->
-	<link rel="stylesheet" href="main.css" type="text/css" />
+	</head>
 
-	<script type="text/javascript" src="//www.google.com/jsapi"></script>
-		<script type="text/javascript">
-			<!--
-			// Provide a local fallback if the CDN cannot be reached
-			if (typeof google == 'undefined') {
-				document.write(unescape("%3Cscript src='https://ojs.zrc-sazu.si/lib/pkp/js/lib/jquery/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
-				document.write(unescape("%3Cscript src='https://ojs.zrc-sazu.si/lib/pkp/js/lib/jquery/plugins/jqueryUi.min.js' type='text/javascript'%3E%3C/script%3E"));
-			} else {
-				google.load("jquery", "1.4.4");
-				google.load("jqueryui", "1.8.6");
-			}
-			// -->
-		</script>
-
-
-<!--
-	<link rel="stylesheet" href="https://ojs.zrc-sazu.si/styles/sidebar.css" type="text/css" />		<link rel="stylesheet" href="https://ojs.zrc-sazu.si/styles/rightSidebar.css" type="text/css" />
-			<link rel="stylesheet" href="https://ojs.zrc-sazu.si/public/site/sitestyle.css" type="text/css" />
-			<link rel="stylesheet" href="https://ojs.zrc-sazu.si/public/journals/8/journalStyleSheet.css" type="text/css" />
-			<link rel="stylesheet" href="https://ojs.zrc-sazu.si/plugins/blocks/languageToggle/styles/languageToggle.css" type="text/css" />
-
-	 Default global locale keys for JavaScript -->
-
-<script type="text/javascript">
-	jQuery.pkp = jQuery.pkp || { };
-	jQuery.pkp.locale = { };
-
-				jQuery.pkp.locale.form_dataHasChanged = 'Podatki na tem obrazcu so se spremenili. vseeno nadaljujem?';
-	</script>
-	<!-- Compiled scripts -->
-
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/lib/jquery/plugins/jquery.tag-it.js"></script>
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/lib/jquery/plugins/jquery.cookie.js"></script>
-
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/functions/fontController.js"></script>
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/functions/general.js"></script>
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/functions/jqueryValidatorI18n.js"></script>
-
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/classes/Helper.js"></script>
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/classes/ObjectProxy.js"></script>
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/classes/Handler.js"></script>
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/classes/linkAction/LinkActionRequest.js"></script>
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/classes/features/Feature.js"></script>
-
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/controllers/SiteHandler.js"></script><!-- Included only for namespace definition -->
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/controllers/UrlInDivHandler.js"></script>
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/controllers/AutocompleteHandler.js"></script>
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/controllers/ExtrasOnDemandHandler.js"></script>
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/controllers/form/FormHandler.js"></script>
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/controllers/form/AjaxFormHandler.js"></script>
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/controllers/form/ClientFormHandler.js"></script>
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/controllers/grid/GridHandler.js"></script>
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/controllers/linkAction/LinkActionHandler.js"></script>
-
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/js/pages/search/SearchFormHandler.js"></script>
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/js/statistics/ReportGeneratorFormHandler.js"></script>
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/plugins/generic/lucene/js/LuceneAutocompleteHandler.js"></script>
-
-<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/lib/jquery/plugins/jquery.pkp.js"></script>
-	<!-- Form validation -->
-	<script type="text/javascript" src="https://ojs.zrc-sazu.si/lib/pkp/js/lib/jquery/plugins/validate/jquery.validate.js"></script>
-	<script type="text/javascript">
-		<!--
-		// initialise plugins
-
-		$(function(){
-			jqueryValidatorI18n("https://ojs.zrc-sazu.si", "sl_SI"); // include the appropriate validation localization
-
-			$(".tagit").live('click', function() {
-				$(this).find('input').focus();
-			});
-		});
-		// -->
-
-	</script>
-
-
-	<link rel="alternate" type="application/atom+xml" title="Primerjalna književnost (atom+xml)" href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/gateway/plugin/WebFeedGatewayPlugin/atom" />
-	<link rel="alternate" type="application/rdf+xml" title="Primerjalna književnost (rdf+xml)" href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/gateway/plugin/WebFeedGatewayPlugin/rss" />
-	<link rel="alternate" type="application/rss+xml" title="Primerjalna književnost (rss+xml)" href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/gateway/plugin/WebFeedGatewayPlugin/rss2" />
-</head>
-<body id="pkp-common-openJournalSystems">
-<div id="container">
-
-<div id="header">
-	<div id="navbar">
-		<div id="image">
-			<img id="nav-logo" src="https://ojs.zrc-sazu.si/public/journals/8/homeHeaderTitleImage_sl_SI.png" alt="Glava strani" />
-		</div>
-		<div id="items">
-			<ul class="menu">
-				<li><a href="index.html">Domov</a></li>
-				<li><a href="about.html">O publikaciji</a></li>
-				<li><a href="login.html">Prijava</a></li>
-				<li><a href="search.html">Išči</a></li>
-				<li><a href="597.html">Trenutna številka</a></li>
-				<li><a href="archive.html">Arhivi</a></li>
-			</ul>
-		</div>
-	</div>
-</div>
-
-	
-
-
-
-<div id="body">
-
-<div id="sidebarcontainer">
-						<div id="sidebar">
-										<div id="rightSidebar">
-							<div class="block" id="sidebarDevelopedBy">
-				<a class="blockTitle" href="http://pkp.sfu.ca/ojs/" id="developedBy">Open Journal Systems</a>
-			</div><div class="block" id="sidebarHelp">
-				<a class="blockTitle" href="javascript:openHelp('https://ojs.zrc-sazu.si/primerjalna_knjizevnost/help/view/user/topic/000001')">Pomoč</a>
+	<body id="pkp-common-openJournalSystems">
+		<div id="container">
+			<div id="header">
+				<div id="navbar">
+					<div id="image">
+						<img id="nav-logo" src="https://ojs.zrc-sazu.si/public/journals/8/homeHeaderTitleImage_sl_SI.png" alt="Glava strani" />
+					</div>
+					<div id="items">
+						<ul class="menu">
+							<li><a href="index.html">Domov</a></li>
+							<li><a href="about.html">O publikaciji</a></li>
+							<li><a href="login.html">Prijava</a></li>
+							<li><a href="search.html">Išči</a></li>
+							<li><a href="597.html">Trenutna številka</a></li>
+							<li><a href="archive.html">Arhivi</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
-			<div class="block" id="sidebarLanguageToggle">
-						   <a class="icon" href='https://ojs.zrc-sazu.si/primerjalna_knjizevnost/user/setLocale/en_US?source=%2Fprimerjalna_knjizevnost%2Findex'>
-					   <img src="https://ojs.zrc-sazu.si/plugins/blocks/languageToggle/locale/en_US/flag.png" alt="English" title="English" width="24" height="16" />
-					</a>
+
+			<div id="body">
+				<div id="sidebarcontainer">
+					<div id="sidebar">
+						<div id="rightSidebar">
+							<div class="block" id="sidebarDevelopedBy">
+								<a class="blockTitle" href="http://pkp.sfu.ca/ojs/" id="developedBy">Open Journal Systems</a>
+							</div>
+							<div class="block" id="sidebarHelp">
+								<a class="blockTitle" href="javascript:openHelp('https://ojs.zrc-sazu.si/primerjalna_knjizevnost/help/view/user/topic/000001')">Pomoč</a>
+							</div>
+							<div class="block" id="sidebarLanguageToggle">
+								<a class="icon" href='https://ojs.zrc-sazu.si/primerjalna_knjizevnost/user/setLocale/en_US?source=%2Fprimerjalna_knjizevnost%2Findex'>
+									<img src="https://ojs.zrc-sazu.si/plugins/blocks/languageToggle/locale/en_US/flag.png" alt="English" title="English" width="24" height="16" />
+								</a>
 								<img src="https://ojs.zrc-sazu.si/plugins/blocks/languageToggle/locale/sl_SI/flag.png" alt="Slovensko (Slovenian)" title="Slovensko (Slovenian)" width="24" height="16" />
 								<a class="icon" href='https://ojs.zrc-sazu.si/primerjalna_knjizevnost/user/setLocale/de_DE?source=%2Fprimerjalna_knjizevnost%2Findex'>
-					   <img src="https://ojs.zrc-sazu.si/plugins/blocks/languageToggle/locale/de_DE/flag.png" alt="Deutsch" title="Deutsch" width="24" height="16" />
-					</a>
+									<img src="https://ojs.zrc-sazu.si/plugins/blocks/languageToggle/locale/de_DE/flag.png" alt="Deutsch" title="Deutsch" width="24" height="16" />
+								</a>
 								<a class="icon" href='https://ojs.zrc-sazu.si/primerjalna_knjizevnost/user/setLocale/hr_HR?source=%2Fprimerjalna_knjizevnost%2Findex'>
-					   <img src="https://ojs.zrc-sazu.si/plugins/blocks/languageToggle/locale/hr_HR/flag.png" alt="Hrvatski" title="Hrvatski" width="24" height="16" />
-					</a>
+									<img src="https://ojs.zrc-sazu.si/plugins/blocks/languageToggle/locale/hr_HR/flag.png" alt="Hrvatski" title="Hrvatski" width="24" height="16" />
+								</a>
 								<a class="icon" href='https://ojs.zrc-sazu.si/primerjalna_knjizevnost/user/setLocale/sr_SR?source=%2Fprimerjalna_knjizevnost%2Findex'>
-					   <img src="https://ojs.zrc-sazu.si/plugins/blocks/languageToggle/locale/sr_SR/flag.png" alt="Serbian" title="Serbian" width="24" height="16" />
-					</a>
-				   </div>
-			<div class="block" id="sidebarUser">
-						<span class="blockTitle">Uporabnik</span>
-
-									<form method="post" action="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/login/signIn">
-							<table>
-								<tr>
-									<td><label for="sidebar-username">Uporabniško ime</label></td>
-									<td><input type="text" id="sidebar-username" name="username" value="" size="12" maxlength="32" class="textField" /></td>
-								</tr>
-								<tr>
-									<td><label for="sidebar-password">Geslo</label></td>
-									<td><input type="password" id="sidebar-password" name="password" value="" size="12" maxlength="32" class="textField" /></td>
-								</tr>
-								<tr>
-									<td colspan="2"><input type="checkbox" id="remember" name="remember" value="1" /> <label for="remember">Zapomni si me</label></td>
-								</tr>
-								<tr>
-									<td colspan="2"><input type="submit" value="Prijava" class="button" /></td>
-								</tr>
-							</table>
-						</form>
-						</div> <div class="block" id="notification">
-				<span class="blockTitle">Obvestila</span>
-				<ul>
-								<li><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/notification">Poglej</a></li>
-						<li><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/notification/subscribeMailList">Naroči se</a></li>
-						</ul>
-			</div>
-
-			<div class="block" id="sidebarNavigation">
-				<span class="blockTitle">Vsebina publikacije</span>
-
-				<form id="simpleSearchForm" method="post" action="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/search/search">
-					<table id="simpleSearchInput">
-						<tr>
-							<td>
-																<label for="simpleQuery">Išči <br />
-								<input type="text" id="simpleQuery" name="simpleQuery" size="15" maxlength="255" value="" class="textField" /></label>
+									<img src="https://ojs.zrc-sazu.si/plugins/blocks/languageToggle/locale/sr_SR/flag.png" alt="Serbian" title="Serbian" width="24" height="16" />
+								</a>
+							</div>
+							<div class="block" id="sidebarUser">
+								<span class="blockTitle">Uporabnik</span>
+								<form method="post" action="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/login/signIn">
+									<table>
+										<tr>
+											<td><label for="sidebar-username">Uporabniško ime</label></td>
+											<td><input type="text" id="sidebar-username" name="username" value="" size="12" maxlength="32" class="textField" /></td>
+										</tr>
+										<tr>
+											<td><label for="sidebar-password">Geslo</label></td>
+											<td><input type="password" id="sidebar-password" name="password" value="" size="12" maxlength="32" class="textField" /></td>
+										</tr>
+										<tr>
+											<td colspan="2"><input type="checkbox" id="remember" name="remember" value="1" /> <label for="remember">Zapomni si me</label></td>
+										</tr>
+										<tr>
+											<td colspan="2"><input type="submit" value="Prijava" class="button" /></td>
+										</tr>
+									</table>
+								</form>
+							</div>
+							<div class="block" id="notification">
+								<span class="blockTitle">Obvestila</span>
+								<ul>
+									<li><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/notification">Poglej</a></li>
+									<li><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/notification/subscribeMailList">Naroči se</a></li>
+								</ul>
+							</div>
+							<div class="block" id="sidebarNavigation">
+								<span class="blockTitle">Vsebina publikacije</span>
+								<form id="simpleSearchForm" method="post" action="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/search/search">
+									<table id="simpleSearchInput">
+										<tr>
+											<td>
+												<label for="simpleQuery">Išči <br />
+												<input type="text" id="simpleQuery" name="simpleQuery" size="15" maxlength="255" value="" class="textField" /></label>
 											</td>
-						</tr>
-						<tr>
-							<td><label for="searchField">
-							Območje iskanja
-							<br />
-							<select id="searchField" name="searchField" size="1" class="selectMenu">
-								<option label="Vse" value="query">Vse</option>
-			<option label="Avtorji" value="authors">Avtorji</option>
-			<option label="Naslov" value="title">Naslov</option>
-			<option label="Povzetek" value="abstract">Povzetek</option>
-			<option label="Indeksni izrazi" value="indexTerms">Indeksni izrazi</option>
-			<option label="Celotno besedilo" value="galleyFullText">Celotno besedilo</option>
-
-							</select></label>
-							</td>
-						</tr>
-						<tr>
-							<td><input type="submit" value="Išči" class="button" /></td>
-						</tr>
-					</table>
-				</form>
-
-				<br />
-
-					<span class="blockSubtitle">Brskanje</span>
-				<ul>
-					<li><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/issue/archive">Po številkah</a></li>
-					<li><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/search/authors">Po avtorju</a></li>
-					<li><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/search/titles">Po naslovu</a></li>
-
-								<li><a href="https://ojs.zrc-sazu.si/">Ostale publikacije</a></li>
+										</tr>
+										<tr>
+											<td>
+												<label for="searchField">Območje iskanja<br />
+													<select id="searchField" name="searchField" size="1" class="selectMenu">
+														<option label="Vse" value="query">Vse</option>
+														<option label="Avtorji" value="authors">Avtorji</option>
+														<option label="Naslov" value="title">Naslov</option>
+														<option label="Povzetek" value="abstract">Povzetek</option>
+														<option label="Indeksni izrazi" value="indexTerms">Indeksni izrazi</option>
+														<option label="Celotno besedilo" value="galleyFullText">Celotno besedilo</option>
+													</select>
+												</label>
+											</td>
+										</tr>
+										<tr>
+											<td><input type="submit" value="Išči" class="button" /></td>
+										</tr>
+									</table>
+								</form>
+								<br />
+								<span class="blockSubtitle">Brskanje</span>
+									<ul>
+										<li><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/issue/archive">Po številkah</a></li>
+										<li><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/search/authors">Po avtorju</a></li>
+										<li><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/search/titles">Po naslovu</a></li>
+										<li><a href="https://ojs.zrc-sazu.si/">Ostale publikacije</a></li>
 									</ul>
+							</div>
+							<!-- Add javascript required for font sizer -->
+							<script type="text/javascript">
+								<!--
+								$(function(){
+									fontSize("#sizer", "body", 9, 16, 32, ""); // Initialize the font sizer
+								});
+								// -->
+							</script>
+							<div class="block" id="sidebarFontSize" style="margin-bottom: 4px;">
+								<span class="blockTitle">Velikost pisave</span>
+								<div id="sizer"></div>
+							</div>
+							<br />
+							<div class="block" id="sidebarInformation">
+								<span class="blockTitle">Informacije</span>
+								<ul>
+									<li><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/information/readers">Za bralce</a></li>		<li><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/information/authors">Za avtorje</a></li>		<li><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/information/librarians">Za knjižničarje</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
-
-			<!-- Add javascript required for font sizer -->
-			<script type="text/javascript">
-				<!--
-				$(function(){
-					fontSize("#sizer", "body", 9, 16, 32, ""); // Initialize the font sizer
-				});
-				// -->
-			</script>
-
-			<div class="block" id="sidebarFontSize" style="margin-bottom: 4px;">
-				<span class="blockTitle">Velikost pisave</span>
-				<div id="sizer"></div>
-			</div>
-			<br /><div class="block" id="sidebarInformation">
-				<span class="blockTitle">Informacije</span>
-				<ul>
-					<li><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/information/readers">Za bralce</a></li>		<li><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/information/authors">Za avtorje</a></li>		<li><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/information/librarians">Za knjižničarje</a></li>	</ul>
-			</div>
-
+				<div id="bodycontainer">
+					<div id="main">
+						<div id="breadcrumb">
+							<a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/index">Domov</a> &gt;
+							<a href="https://ojs.zrc-sazu.si/index.php/primerjalna_knjizevnost/index" class="current">Primerjalna književnost</a>
 						</div>
-						</div>
-
-	</div>
-
-
-<div id="bodycontainer">
-				<div id="main">
-
-
-		<div id="breadcrumb">
-			<a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/index">Domov</a> &gt;
-					<a href="https://ojs.zrc-sazu.si/index.php/primerjalna_knjizevnost/index" class="current">Primerjalna književnost</a></div>
-
-		<h2>Primerjalna književnost</h2>
-
-
-		<div id="content">
-
-
-
-			<div id="journalDescription"><p class="PKN1"><em>Primerjalna književnost </em>je znanstvena revija, ki jo od leta 1978 izdaja Slovensko društvo za primerjalno književnost. Izhaja trikrat letno in objavlja izvirne razprave s področij primerjalne književnosti, literarne teorije, metodologije literarne vede, literarne estetike in dru­gih strok, ki obravnavajo literaturo in njene kontekste. Zaželeni so tudi meddisciplinarni pristopi. Revija objavlja prispevke v slovenščini ali angleščini, izjemoma tudi v drugih jezikih. Vsi članki so recenzirani.</p><p class="PKN1">ISSN tiskane izdaje: 0351-1189<br />ISSN spletne izdaje: 2591-1805</p><p class="PKN1"> </p></div>
-
-
-
-
-
-
-		<br />
-		<div id="homepageImage"><img src="https://ojs.zrc-sazu.si/public/journals/8/homepageImage_sl_SI.png" width="134" height="200" alt="Domača stran publikacije" /></div>
-
-		<br />
-		<div id="additionalHomeContent"><p><strong>Glavni in odgovorni urednik</strong></p><p>Marijan Dović</p><p><strong><br /></strong></p><p><strong>Tehnični urednik</strong></p><p>Andraž Jež</p><p><strong><br /></strong></p><p><strong>Uredniški odbor</strong></p><p>Marko Juvan, Alenka Koron, Dejan Kos, Vanesa Matajc, Darja Pavlič, Vid Snoj, Jola Škulj</p><p><strong><br /></strong></p><p><strong>Uredniški svet</strong></p><p>Ziva Ben-Porat (Tel Aviv), Vladimir Biti (Dunaj), Lucia Boldrini, Zoran Milutinović, Katia Pizzi, Galin Tihanov (London), César Domínguez (Santiago de Compostela), Péter Hajdu (Budimpešta), Jón Karl Helgason (Reykjavík), Bart Keunen (Gent), Darko Dolinar, Janko Kos, Aleksander Skaza, Neva Šlibar, Tomo Virk (Ljubljana), Sowon Park (Santa Barbara), Ivan Verč (Trst), Peter V. Zima (Celovec)</p><p> </p><p><strong>Naslov</strong></p><p>Novi trg 2, 1000 Ljubljana, Slovenija <br /> marijan.dovic@zrc-sazu.si <br /><br /></p></div>
-
-
-
-			<br /><br />
-			<div id="pageFooter">ISSN: 2591-1805</div>
-
-		</div><!-- content -->
-		</div><!-- main -->
-</div>
-
-</div><!-- body -->
-
-
-
-</div><!-- container -->
-</body>
+						<h2>Primerjalna književnost</h2>
+						<div id="content">
+							<div id="journalDescription">
+								<p class="PKN1"><em>Primerjalna književnost </em>je znanstvena revija, ki jo od leta 1978 izdaja Slovensko društvo za primerjalno književnost. Izhaja trikrat letno in objavlja izvirne razprave s področij primerjalne književnosti, literarne teorije, metodologije literarne vede, literarne estetike in dru­gih strok, ki obravnavajo literaturo in njene kontekste. Zaželeni so tudi meddisciplinarni pristopi. Revija objavlja prispevke v slovenščini ali angleščini, izjemoma tudi v drugih jezikih. Vsi članki so recenzirani.</p>
+								<p class="PKN1">ISSN tiskane izdaje: 0351-1189<br />ISSN spletne izdaje: 2591-1805</p>
+								<p class="PKN1"> </p>
+							</div>
+							<br />
+							<div id="homepageImage">
+								<img src="https://ojs.zrc-sazu.si/public/journals/8/homepageImage_sl_SI.png" width="134" height="200" alt="Domača stran publikacije" />
+							</div>
+							<br />
+							<div id="additionalHomeContent">
+								<p><strong>Glavni in odgovorni urednik</strong></p>
+								<p>Marijan Dović</p>
+								<p><strong><br /></strong></p>
+								<p><strong>Tehnični urednik</strong></p>
+								<p>Andraž Jež</p>
+								<p><strong><br /></strong></p>
+								<p><strong>Uredniški odbor</strong></p>
+								<p>Marko Juvan, Alenka Koron, Dejan Kos, Vanesa Matajc, Darja Pavlič, Vid Snoj, Jola Škulj</p>
+								<p><strong><br /></strong></p><p><strong>Uredniški svet</strong></p>
+								<p>Ziva Ben-Porat (Tel Aviv), Vladimir Biti (Dunaj), Lucia Boldrini, Zoran Milutinović, Katia Pizzi, Galin Tihanov (London), César Domínguez (Santiago de Compostela), Péter Hajdu (Budimpešta), Jón Karl Helgason (Reykjavík), Bart Keunen (Gent), Darko Dolinar, Janko Kos, Aleksander Skaza, Neva Šlibar, Tomo Virk (Ljubljana), Sowon Park (Santa Barbara), Ivan Verč (Trst), Peter V. Zima (Celovec)</p>
+								<p> </p>
+								<p><strong>Naslov</strong></p>
+								<p>Novi trg 2, 1000 Ljubljana, Slovenija <br /> marijan.dovic@zrc-sazu.si <br /><br /></p>
+							</div>
+							<br />
+							<br />
+							<div id="pageFooter">ISSN: 2591-1805</div>
+						</div><!-- content -->
+					</div><!-- main -->
+				</div>
+			</div><!-- body -->
+		</div><!-- container -->
+	</body>
 </html>
