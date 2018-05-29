@@ -6,7 +6,6 @@
 	float: left;
 	margin: 0 1.5%;
 	width: 63%;
-	padding: 10px;
 	background-color: #ffffff !important;
 }
 
@@ -19,6 +18,10 @@
 
 body {
 	background-color: red;
+}
+
+#sidebar {
+	padding: 15px;
 }
 
 #main {
