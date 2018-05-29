@@ -20,12 +20,9 @@ body {
 	background-color: red;
 }
 
-.blockTitle {
-	padding: 15px;
-}
 
-.block {
-	padding: 15px;
+#sidebarcontainer {
+	padding: 10px;
 }
 
 #main {
