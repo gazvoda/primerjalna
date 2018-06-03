@@ -1,0 +1,187 @@
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/**** NAVIGATION BAR - START ****/
+.navbar {
+    height: 85px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.22);
+    position: fixed;
+}
+
+.container {
+    height: 85px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-between;
+}
+
+.navbar-image {
+    width: 284px;
+    height: 85px;
+    background: #ffffff;
+    /*border: 1px solid #000000;*/
+}
+
+#nav-logo {
+    height: inherit;
+    width: inherit;
+}
+
+.navbar-search {
+    width: 276px;
+    height: 85px;
+    background: #ffffff;
+    /*border: 1px solid #000000;*/
+    position: relative;
+}
+
+.navbar-search input[type="text"] {
+    border: 0;
+    border-bottom: 1px solid #2f2f2f;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.38;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: block;
+}
+
+#search-icon {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 32px;
+    right: 0px;
+}
+
+.navbar-menu {
+    width: 410px;
+    height: 85px;
+    background: #ffffff;
+    /*border: 1px solid #000000;*/
+}
+
+ul.menu {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu > li {
+    float: left;
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+.menu a {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+
+    text-align: left;
+    color: #110e12;
+    text-decoration: none;
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/** NAVIGATION BAR - END **/
+
+
+.header {
+    padding-top: 85px;
+    width: 1280px;
+    height: 246px;
+    background: #eeeeee;
+    display: table;
+}
+
+h1, h2, h3, h4, p {
+    font-family: Raleway;
+    color: #110E12; /*color: #2f2f2f;*/
+    margin: 0;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.15;
+    letter-spacing: 2px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 70%;
+    padding-left: 235px;
+    padding-right: 235px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 43px;
+    padding-bottom: 43px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.body .container {
+    padding-top: 43px;
+    padding-bottom: 43px;
+    border-bottom: solid 1px #866291;
+    text-align: center;
+}
