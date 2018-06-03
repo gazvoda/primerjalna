@@ -31,6 +31,78 @@
             <!---<img id="header-image" href="assets/background.png"/>--->
             <h1>Prijava</h1>
         </div>
+		
+		
+<!--- <div id="navbar">
+	<ul class="menu">
+		<li id="home"><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/index">Domov</a></li>
+		<li id="about"><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/about">O publikaciji</a></li>
+
+					<li id="login"><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/login">Prijava</a></li>
+												<li id="search"><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/search">Išči</a></li>
+		
+					<li id="current"><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/issue/current/showToc">Trenutna številka</a></li>
+			<li id="archives"><a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/issue/archive">Arhivi</a></li>
+		
+				
+
+								</ul>
+</div> 
+
+<div id="breadcrumb">
+	<a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/index">Domov</a> &gt;
+			<a href="https://ojs.zrc-sazu.si/index.php/primerjalna_knjizevnost/login" class="current">Prijava</a></div>--->
+
+<div id="content">
+<link rel="stylesheet" href="style/login.css">
+	<form id="signinForm" method="post" action="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/login/signIn">
+		<input name="source" value="" type="hidden">
+		<table id="signinTable" class="data">
+			<tbody><tr>
+				<td class="label"><label for="loginUsername">Uporabniško ime</label></td>
+				<td class="value"><input id="loginUsername" name="username" value="" size="20" maxlength="32" class="textField" type="text"></td>
+			</tr>
+			<tr>
+				<td class="label"><label for="loginPassword">Geslo</label></td>
+				<td class="value"><input id="loginPassword" name="password" value="" size="20" maxlength="32" class="textField" type="password"></td>
+			</tr>
+				<tr valign="middle">
+				<td></td>
+				<td class="value"><input id="loginRemember" name="remember" value="1" type="checkbox" > <label for="loginRemember">Zapomni si me</label></td>
+			</tr>
+				<tr>
+				<td></td>
+				<div id="loginButton">
+				<td><input value="Prijava" class="button" type="submit"></td></div>
+			</tr>
+		</tbody></table>
+
+		<p>
+			 <a href="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/login/lostPassword">Pozabljeno geslo?</a>
+		</p>
+		<script type="text/javascript">
+		<!--
+			document.getElementById('loginUsername').focus();
+		// -->
+		</script>
+	</form>
+
+	<br><br>
+	<div id="separator"></div>
+		
+	<div class="address">
+		<h3>Naslov</h3>
+		<h5>Novi trg 1, <br> 1000 Ljubljana <br> Slovenija</h5>
+	</div>
+	
+	<div class="contactNumber">
+		<h3>Kontakt</h3>
+		<h5>marijan.dovic@zrc-sazu.si</h5>
+	</div>
+	
+
+</div><!-- content -->
+
 
     </body>
 
