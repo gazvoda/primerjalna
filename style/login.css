@@ -1,0 +1,58 @@
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+}
+
+#signinTable {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.value {
+	padding-left: 50px;
+	padding-bottom: 5px;
+}
+
+.button {
+	border-radius: 25px;
+	background: #b690c1;
+	border: 2px solid #b690c1;
+	margin-left: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#loginRemember {
+	margin-top: 5px;
+}
+
+p {
+	text-align: center;
+	padding-left: 150px;
+	
+}
+
+#pageFooter {
+	text-align: center;	
+}
+
+#separator {
+	border-bottom: solid 1px #866291;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+.address {
+	text-align: left;
+	float: left;
+	margin-left: 20%;
+}
+
+.contactNumber {
+	text-align: left;
+	float: right;
+	margin-right: 60%;
+}
