@@ -11,7 +11,7 @@ h3 {
 }
 
 .separator {
-	border-bottom: solid 1px #866291;
+	border-bottom: solid 1px #b690c1;
 	width: 700px;
 	margin-left: auto;
 	margin-right: auto;
@@ -19,12 +19,24 @@ h3 {
 
 .issueCoverImage {
 	float: left;
-	padding-left: 15%;
+	padding-left: 13%;
 	padding-bottom: 40px;
 }
 
 .issueCoverDescription {
-	float: right;	
-	padding-right: 15%;
+	position: absolute;
+	margin-left: 14%;
 }
 
+#nums {
+	padding-top: 40px;
+	text-align: center;
+}
+
+html *
+{
+   color: #110E12; /*color: #2f2f2f;*/
+   margin: 0;
+   font-weight: normal;
+   font-family: 'Raleway', sans-serif !important;
+}
