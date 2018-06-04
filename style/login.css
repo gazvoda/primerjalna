@@ -33,6 +33,10 @@ p {
 	
 }
 
+h5 {
+	font-weight: normal;
+}
+
 #pageFooter {
 	text-align: center;	
 }
@@ -48,11 +52,18 @@ p {
 .address {
 	text-align: left;
 	float: left;
-	margin-left: 20%;
+	margin-left: 30%;
 }
 
 .contactNumber {
 	text-align: left;
 	float: right;
-	margin-right: 60%;
+	margin-right: 50%;
+}
+
+html *
+{
+   color: #110E12; /*color: #2f2f2f;*/
+   margin: 0;
+   font-family: 'Raleway', sans-serif !important;
 }
