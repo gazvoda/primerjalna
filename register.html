@@ -1,0 +1,447 @@
+<html>
+    <head>
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+        <title>Primerjalna književnost</title>
+        <link rel="stylesheet" href="style/main.css">
+        <meta charset="UTF-8">
+		
+    </head>
+
+    <body>
+        <div class="navbar">
+            <div class="container">
+                <div class="navbar-image">
+                    <img id="nav-logo" src="assets/logo.png" alt="Glava strani"/>
+                </div>
+                <div class="navbar-search">
+                    <input type="text" name="search" value="" placeholder="Išči">
+                    <img id="search-icon" src="assets/ic-search.svg" alt="Lupa"/>
+                </div>
+                <div class="navbar-menu">
+                    <ul class="menu">
+                        <li><a href="index.html">DOMOV</a></li>
+                        <li><a href="about.html">O PUBLIKACIJI</a></li>
+                        <li><a href="login.html">PRIJAVA</a></li>
+                        <li><a href="archive.html">ARHIVI</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="header">
+            <!---<img id="header-image" href="assets/background.png"/>--->
+            <h1>Registracija</h1>
+        </div>
+		
+		<div class="contents_reg">
+			<link rel="stylesheet" href="style/about.css">
+			<meta charset="UTF-8">
+			
+				<form id="register" method="post" action="https://ojs.zrc-sazu.si/primerjalna_knjizevnost/user/registerUser">
+				<br><br>
+				<p>Za registracijo na tem spletišču izpolnite spodnji obrazec.</p>
+
+							
+						<p><a href="login.html">Kliknite tukaj</a>, če ste že registrirani na tem spletišču.</p>
+					<br><br>
+					<h3>Račun uporabnika</h3>
+
+					
+					
+				<table class="data" width="100%">
+					<tbody>
+						
+							
+						<tr valign="top">
+							<td class="label" width="20%">
+							<label for="username">
+								Uporabniško ime *</label>
+							</td>
+							<td class="value" width="80%"><input name="username" value="" id="username" size="20" maxlength="32" class="textField" type="text"></td>
+						</tr>
+						
+						<tr valign="top">
+								<td></td>
+								<td class="instruct">Uporabniško ime lahko vsebuje le male črke, številke, podčrtaj ali pomišljaj.</td>
+						</tr>
+								
+						<tr valign="top">
+							<td class="label">
+								<label for="password">Geslo *</label>
+							</td>
+							<td class="value"><input name="password" value="" id="password" size="20" maxlength="32" class="textField" type="password"></td>
+						</tr>
+
+						<tr valign="top">
+							<td></td>
+							<td class="instruct">Geslo mora biti dolgo vsaj 6 znakov.</td>
+						</tr>
+						
+						<tr valign="top">
+							<td class="label">
+								<label for="password2">Ponovite geslo *</label>
+							</td>	
+							<td class="value"><input name="password2" id="password2" value="" size="20" maxlength="32" class="textField" type="password"></td>
+						</tr>
+
+						
+										
+						<tr valign="top">
+							<td class="label">
+								<label for="salutation">Naziv </label>
+							</td>
+							<td class="value"><input name="salutation" id="salutation" value="" size="20" maxlength="40" class="textField" type="text"></td>
+						</tr>
+						
+						<tr valign="top">
+							<td class="label">
+								<label for="firstName">Ime *</label>
+							</td>
+							<td class="value"><input id="firstName" name="firstName" value="" size="20" maxlength="40" class="textField" type="text"></td>
+						</tr>
+
+
+						<tr valign="top">
+							<td class="label">
+								<label for="lastName">Priimek *</label>
+							</td>
+								<td class="value"><input id="lastName" name="lastName" value="" size="20" maxlength="90" class="textField" type="text"></td>
+						</tr>
+
+
+
+						<tr valign="top">
+							<td class="label">
+								<label for="gender-m">Spol </label>
+							</td>
+							<td class="value">
+								<select name="gender" id="gender" size="1" class="selectMenu">
+											<option label="" value=""></option>
+										<option label="M" value="M">M</option>
+										<option label="Ž" value="F">Ž</option>
+										<option label="Ostalo" value="O">Ostalo</option>
+								</select>
+							</td>
+						</tr>
+
+						<tr valign="top">
+							<td class="label">
+								<label for="affiliation">Ustanova </label>
+							</td>
+							<td class="value">
+								<textarea id="affiliation" name="affiliation[sl_SI]" rows="5" cols="40" class="textArea"></textarea><br>
+								<span class="instruct">(Vaša ustanova, npr. "Simon Fraser University")</span>
+							</td>
+						</tr>
+
+						<tr valign="top">
+							<td class="label">
+								<label for="email">E-pošta *</label>
+							</td>
+							<td class="value"><input id="email" name="email" value="" size="30" maxlength="90" class="textField" type="text"> </td>
+						</tr>
+
+						<tr valign="top">
+							<td class="label">
+								<label for="confirmEmail">Potrdi e-poštni naslov *</label>
+							</td>
+							<td class="value"><input id="confirmEmail" name="confirmEmail" value="" size="30" maxlength="90" class="textField" type="text"></td>
+						</tr>
+
+						<tr valign="top">
+							<td class="label">
+								<label for="country">Država </label>
+							</td>
+							<td class="value">
+								<select name="country" id="country" class="selectMenu">
+									<option value=""></option>
+									<option label="Afganistan" value="AF">Afganistan</option>
+									<option label="Albanija" value="AL">Albanija</option>
+									<option label="Alžirija" value="DZ">Alžirija</option>
+									<option label="Ameriški Deviški otoki" value="VI">Ameriški Deviški otoki</option>
+									<option label="Andora" value="AD">Andora</option>
+									<option label="Angola" value="AO">Angola</option>
+									<option label="Angvila" value="AI">Angvila</option>
+									<option label="Antarktika" value="AQ">Antarktika</option>
+									<option label="Antiga in Barbuda" value="AG">Antiga in Barbuda</option>
+									<option label="Argentina" value="AR">Argentina</option>
+									<option label="Armenja" value="AM">Armenja</option>
+									<option label="Aruba" value="AW">Aruba</option>
+									<option label="Australja" value="AU">Australja</option>
+									<option label="Austrja" value="AT">Austrja</option>
+									<option label="Azerbejdžan" value="AZ">Azerbejdžan</option>
+									<option label="Bahami" value="BS">Bahami</option>
+									<option label="Bahrein" value="BH">Bahrein</option>
+									<option label="Bangladeš" value="BD">Bangladeš</option>
+									<option label="Barbados" value="BB">Barbados</option>
+									<option label="Belgija" value="BE">Belgija</option>
+									<option label="Belize" value="BZ">Belize</option>
+									<option label="Belorusija" value="BY">Belorusija</option>
+									<option label="Benin" value="BJ">Benin</option>
+									<option label="Bermudi" value="BM">Bermudi</option>
+									<option label="Bocvana" value="BW">Bocvana</option>
+									<option label="Bolivja, Plurinational State of" value="BO">Bolivja, Plurinational State of</option>
+									<option label="Bosna in Hercegovina" value="BA">Bosna in Hercegovina</option>
+									<option label="Bouvetov Otok" value="BV">Bouvetov Otok</option>
+									<option label="Božični otok" value="CX">Božični otok</option>
+									<option label="Brazilija" value="BR">Brazilija</option>
+									<option label="Britanski Deviški otoki" value="VG">Britanski Deviški otoki</option>
+									<option label="Britanski teritoriji v Indijskem oceanu" value="IO">Britanski teritoriji v Indijskem oceanu</option>
+									<option label="Brunej Darussalam" value="BN">Brunej Darussalam</option>
+									<option label="Bulgarja" value="BG">Bulgarja</option>
+									<option label="Burkina Faso" value="BF">Burkina Faso</option>
+									<option label="Burundi" value="BI">Burundi</option>
+									<option label="Butan" value="BT">Butan</option>
+									<option label="Ciper" value="CY">Ciper</option>
+									<option label="Danska" value="DK">Danska</option>
+									<option label="Demokratična Republika Kongo" value="CD">Demokratična Republika Kongo</option>
+									<option label="Demokratska Narodna Republika Koreja" value="KP">Demokratska Narodna Republika Koreja</option>
+									<option label="Dominika" value="DM">Dominika</option>
+									<option label="Dominikanska Republika" value="DO">Dominikanska Republika</option>
+									<option label="Džibuti" value="DJ">Džibuti</option>
+									<option label="Egipt" value="EG">Egipt</option>
+									<option label="Ekvador" value="EC">Ekvador</option>
+									<option label="Ekvatorialna Gvineja" value="GQ">Ekvatorialna Gvineja</option>
+									<option label="El Salvador" value="SV">El Salvador</option>
+									<option label="Eritreja" value="ER">Eritreja</option>
+									<option label="Estonija" value="EE">Estonija</option>
+									<option label="Etiopija" value="ET">Etiopija</option>
+									<option label="Falklandski otoki" value="FK">Falklandski otoki</option>
+									<option label="Ferski otoki" value="FO">Ferski otoki</option>
+									<option label="Fidži" value="FJ">Fidži</option>
+									<option label="Filipini" value="PH">Filipini</option>
+									<option label="Finska" value="FI">Finska</option>
+									<option label="Francija" value="FR">Francija</option>
+									<option label="Francoska Gvajana" value="GF">Francoska Gvajana</option>
+									<option label="Francoska Polinezija" value="PF">Francoska Polinezija</option>
+									<option label="Gabon" value="GA">Gabon</option>
+									<option label="Gambija" value="GM">Gambija</option>
+									<option label="Gana" value="GH">Gana</option>
+									<option label="Gibraltar" value="GI">Gibraltar</option>
+									<option label="Grenada" value="GD">Grenada</option>
+									<option label="Grenlandija" value="GL">Grenlandija</option>
+									<option label="Gruzija" value="GE">Gruzija</option>
+									<option label="Grčija" value="GR">Grčija</option>
+									<option label="Guam" value="GU">Guam</option>
+									<option label="Guernsi" value="GG">Guernsi</option>
+									<option label="Gvadalupa" value="GP">Gvadalupa</option>
+									<option label="Gvajana" value="GY">Gvajana</option>
+									<option label="Gvatemala" value="GT">Gvatemala</option>
+									<option label="Gvineja" value="GN">Gvineja</option>
+									<option label="Gvineja Bisau" value="GW">Gvineja Bisau</option>
+									<option label="Haiti" value="HT">Haiti</option>
+									<option label="Honduras" value="HN">Honduras</option>
+									<option label="Hong Kong" value="HK">Hong Kong</option>
+									<option label="Hrvaška" value="HR">Hrvaška</option>
+									<option label="Indija" value="IN">Indija</option>
+									<option label="Indonezija" value="ID">Indonezija</option>
+									<option label="Irak" value="IQ">Irak</option>
+									<option label="Iran" value="IR">Iran</option>
+									<option label="Irska" value="IE">Irska</option>
+									<option label="Islandija" value="IS">Islandija</option>
+									<option label="Italija" value="IT">Italija</option>
+									<option label="Izrael" value="IL">Izrael</option>
+									<option label="Jamajka" value="JM">Jamajka</option>
+									<option label="Japonska" value="JP">Japonska</option>
+									<option label="Jemen" value="YE">Jemen</option>
+									<option label="Jersey" value="JE">Jersey</option>
+									<option label="Jordanija" value="JO">Jordanija</option>
+									<option label="Južna Afrika" value="ZA">Južna Afrika</option>
+									<option label="Južni francoski teritoriji" value="TF">Južni francoski teritoriji</option>
+									<option label="Kajmanski otoki" value="KY">Kajmanski otoki</option>
+									<option label="Kambodža" value="KH">Kambodža</option>
+									<option label="Kamerun" value="CM">Kamerun</option>
+									<option label="Kanada" value="CA">Kanada</option>
+									<option label="Kap Verde" value="CV">Kap Verde</option>
+									<option label="Katar" value="QA">Katar</option>
+									<option label="Kazahstan" value="KZ">Kazahstan</option>
+									<option label="Kenija" value="KE">Kenija</option>
+									<option label="Kirgistan" value="KG">Kirgistan</option>
+									<option label="Kiribati" value="KI">Kiribati</option>
+									<option label="Kitajska" value="CN">Kitajska</option>
+									<option label="Kokosovi otoci" value="CC">Kokosovi otoci</option>
+									<option label="Kolumbija" value="CO">Kolumbija</option>
+									<option label="Komori" value="KM">Komori</option>
+									<option label="Kongo" value="CG">Kongo</option>
+									<option label="Kostarika" value="CR">Kostarika</option>
+									<option label="Kuba" value="CU">Kuba</option>
+									<option label="Kukovi otoci" value="CK">Kukovi otoci</option>
+									<option label="Kuvajt" value="KW">Kuvajt</option>
+									<option label="Laoška Narodna Demokratična Republika" value="LA">Laoška Narodna Demokratična Republika</option>
+									<option label="Latvija" value="LV">Latvija</option>
+									<option label="Lesoto" value="LS">Lesoto</option>
+									<option label="Libanon" value="LB">Libanon</option>
+									<option label="Liberija" value="LR">Liberija</option>
+									<option label="Libija" value="LY">Libija</option>
+									<option label="Lihtenštajn" value="LI">Lihtenštajn</option>
+									<option label="Litva" value="LT">Litva</option>
+									<option label="Luksemburg" value="LU">Luksemburg</option>
+									<option label="Madagaskar" value="MG">Madagaskar</option>
+									<option label="Madžarska" value="HU">Madžarska</option>
+									<option label="Makao" value="MO">Makao</option>
+									<option label="Makedonija" value="MK">Makedonija</option>
+									<option label="Malavi" value="MW">Malavi</option>
+									<option label="Maldivi" value="MV">Maldivi</option>
+									<option label="Malezija" value="MY">Malezija</option>
+									<option label="Mali" value="ML">Mali</option>
+									<option label="Mali oddaljeni otoki ZDA" value="UM">Mali oddaljeni otoki ZDA</option>
+									<option label="Malta" value="MT">Malta</option>
+									<option label="Maroko" value="MA">Maroko</option>
+									<option label="Martinik" value="MQ">Martinik</option>
+									<option label="Maršalovi Otoki" value="MH">Maršalovi Otoki</option>
+									<option label="Mauricius" value="MU">Mauricius</option>
+									<option label="Mavretania" value="MR">Mavretania</option>
+									<option label="Mayotte" value="YT">Mayotte</option>
+									<option label="Mehika" value="MX">Mehika</option>
+									<option label="Mikronezija" value="FM">Mikronezija</option>
+									<option label="Mjanmar" value="MM">Mjanmar</option>
+									<option label="Moldavija" value="MD">Moldavija</option>
+									<option label="Monako" value="MC">Monako</option>
+									<option label="Mongolija" value="MN">Mongolija</option>
+									<option label="Montserrat" value="MS">Montserrat</option>
+									<option label="Mozambik" value="MZ">Mozambik</option>
+									<option label="Namibija" value="NA">Namibija</option>
+									<option label="Nauru" value="NR">Nauru</option>
+									<option label="Nemčija" value="DE">Nemčija</option>
+									<option label="Nepal" value="NP">Nepal</option>
+									<option label="Niger" value="NE">Niger</option>
+									<option label="Nigerija" value="NG">Nigerija</option>
+									<option label="Nikaragva" value="NI">Nikaragva</option>
+									<option label="Niue" value="NU">Niue</option>
+									<option label="Nizozemska" value="NL">Nizozemska</option>
+									<option label="Nizozemski Antili" value="AN">Nizozemski Antili</option>
+									<option label="Norveška" value="NO">Norveška</option>
+									<option label="Nova Kaledonija" value="NC">Nova Kaledonija</option>
+									<option label="Nova Zelandija" value="NZ">Nova Zelandija</option>
+									<option label="Okupirana Palestinska ozemlja" value="PS">Okupirana Palestinska ozemlja</option>
+									<option label="Oman" value="OM">Oman</option>
+									<option label="Otok Man" value="IM">Otok Man</option>
+									<option label="Otok Norfolk" value="NF">Otok Norfolk</option>
+									<option label="Otoka Heard in McDonald" value="HM">Otoka Heard in McDonald</option>
+									<option label="Otoka Južna Georgia in Južni Sandwich" value="GS">Otoka Južna Georgia in Južni Sandwich</option>
+									<option label="Otoka Turks in Caicos" value="TC">Otoka Turks in Caicos</option>
+									<option label="Pakistan" value="PK">Pakistan</option>
+									<option label="Palau" value="PW">Palau</option>
+									<option label="Panama" value="PA">Panama</option>
+									<option label="Papua Nova Gvineja" value="PG">Papua Nova Gvineja</option>
+									<option label="Paragvaj" value="PY">Paragvaj</option>
+									<option label="Peru" value="PE">Peru</option>
+									<option label="Pitcairn" value="PN">Pitcairn</option>
+									<option label="Poljska" value="PL">Poljska</option>
+									<option label="Portoriko" value="PR">Portoriko</option>
+									<option label="Portugalska" value="PT">Portugalska</option>
+									<option label="Republika Koreja" value="KR">Republika Koreja</option>
+									<option label="Romunija" value="RO">Romunija</option>
+									<option label="Ruanda" value="RW">Ruanda</option>
+									<option label="Ruska Federacija" value="RU">Ruska Federacija</option>
+									<option label="Réunion" value="RE">Réunion</option>
+									<option label="Salamonovi Otoki" value="SB">Salamonovi Otoki</option>
+									<option label="Samoa" value="WS">Samoa</option>
+									<option label="Samoa" value="AS">Samoa</option>
+									<option label="San Marino" value="SM">San Marino</option>
+									<option label="Sao Tome in Principe" value="ST">Sao Tome in Principe</option>
+									<option label="Saudska Arabija" value="SA">Saudska Arabija</option>
+									<option label="Sejšeli" value="SC">Sejšeli</option>
+									<option label="Senegal" value="SN">Senegal</option>
+									<option label="Severni Marijanski Otoki" value="MP">Severni Marijanski Otoki</option>
+									<option label="Siera Leone" value="SL">Siera Leone</option>
+									<option label="Singapur" value="SG">Singapur</option>
+									<option label="Sirijska Arabska Republika" value="SY">Sirijska Arabska Republika</option>
+									<option label="Slonikoščena obala" value="CI">Slonikoščena obala</option>
+									<option label="Slovaška" value="SK">Slovaška</option>
+									<option label="Slovenija" value="SI">Slovenija</option>
+									<option label="Somalija" value="SO">Somalija</option>
+									<option label="Srbija" value="RS">Srbija</option>
+									<option label="Srednjeafriška republika" value="CF">Srednjeafriška republika</option>
+									<option label="Sudan" value="SD">Sudan</option>
+									<option label="Suriname" value="SR">Suriname</option>
+									<option label="Svalbard" value="SJ">Svalbard</option>
+									<option label="Svazi" value="SZ">Svazi</option>
+									<option label="Sveta Helena" value="BL">Sveta Helena</option>
+									<option label="Sveta Helena, Ascension in Tristan da Cunha" value="SH">Sveta Helena, Ascension in Tristan da Cunha</option>
+									<option label="Sveta Lucija" value="LC">Sveta Lucija</option>
+									<option label="Sveti Kits in Nevis" value="KN">Sveti Kits in Nevis</option>
+									<option label="Sveti Martin (Francoski del)" value="MF">Sveti Martin (Francoski del)</option>
+									<option label="Sveti Petar in Mikelon" value="PM">Sveti Petar in Mikelon</option>
+									<option label="Sveti Vincent in Grenadini" value="VC">Sveti Vincent in Grenadini</option>
+									<option label="Tadžikistan" value="TJ">Tadžikistan</option>
+									<option label="Tailand" value="TH">Tailand</option>
+									<option label="Tajvan" value="TW">Tajvan</option>
+									<option label="Tanzanija" value="TZ">Tanzanija</option>
+									<option label="Togo" value="TG">Togo</option>
+									<option label="Tokelau" value="TK">Tokelau</option>
+									<option label="Tonga" value="TO">Tonga</option>
+									<option label="Trinidad in Tobago" value="TT">Trinidad in Tobago</option>
+									<option label="Tunizia" value="TN">Tunizia</option>
+									<option label="Turkmenistan" value="TM">Turkmenistan</option>
+									<option label="Turčija" value="TR">Turčija</option>
+									<option label="Tuvalu" value="TV">Tuvalu</option>
+									<option label="Uganda" value="UG">Uganda</option>
+									<option label="Ukraina" value="UA">Ukraina</option>
+									<option label="Urugvaj" value="UY">Urugvaj</option>
+									<option label="Uzbekistan" value="UZ">Uzbekistan</option>
+									<option label="Vanuatu" value="VU">Vanuatu</option>
+									<option label="Vatikan" value="VA">Vatikan</option>
+									<option label="Venezuela" value="VE">Venezuela</option>
+									<option label="Vijetnam" value="VN">Vijetnam</option>
+									<option label="Vzhodni Timor" value="TL">Vzhodni Timor</option>
+									<option label="Wallis in Futuna" value="WF">Wallis in Futuna</option>
+									<option label="Zahodna Sahara" value="EH">Zahodna Sahara</option>
+									<option label="Zambija" value="ZM">Zambija</option>
+									<option label="Združene Države Amerike" value="US">Združene Države Amerike</option>
+									<option label="Združeni Arabski Emirati" value="AE">Združeni Arabski Emirati</option>
+									<option label="Združeno kraljestvo" value="GB">Združeno kraljestvo</option>
+									<option label="Zimbabve" value="ZW">Zimbabve</option>
+									<option label="Ålandski otoki" value="AX">Ålandski otoki</option>
+									<option label="Čad" value="TD">Čad</option>
+									<option label="Češka republika" value="CZ">Češka republika</option>
+									<option label="Čile" value="CL">Čile</option>
+									<option label="Črna gora" value="ME">Črna gora</option>
+									<option label="Španija" value="ES">Španija</option>
+									<option label="Šri Lanka" value="LK">Šri Lanka</option>
+									<option label="Švedska" value="SE">Švedska</option>
+									<option label="Švica" value="CH">Švica</option>
+								</select>
+							</td>
+						</tr>
+
+						<tr valign="top">
+							<td class="label">
+								<label for="sendPassword">Potrditev </label>
+							</td>
+							
+							<td class="value">
+								<input name="sendPassword" id="sendPassword" value="1" checked="checked" type="checkbox"> <label for="sendPassword">Pošljite mi potrditveno e-pošto z mojim uporabniškim imenom in geslom.</label>
+							</td>
+						</tr>
+
+						<tr valign="top">
+							<td class="label">Delovni jeziki</td>
+								<td class="value">	
+									<input name="userLocales[]" id="userLocales-de_DE" value="de_DE" type="checkbox"> <label for="userLocales-de_DE">Deutsch</label><br>
+									<input name="userLocales[]" id="userLocales-en_US" value="en_US" type="checkbox"> <label for="userLocales-en_US">English</label><br>
+									<input name="userLocales[]" id="userLocales-fr_CA" value="fr_CA" type="checkbox"> <label for="userLocales-fr_CA">Français</label><br>
+									<input name="userLocales[]" id="userLocales-hr_HR" value="hr_HR" type="checkbox"> <label for="userLocales-hr_HR">Hrvatski</label><br>
+									<input name="userLocales[]" id="userLocales-sr_SR" value="sr_SR" type="checkbox"> <label for="userLocales-sr_SR">Serbian</label><br>
+									<input name="userLocales[]" id="userLocales-sl_SI" value="sl_SI" type="checkbox"> <label for="userLocales-sl_SI">Slovensko (Slovenian)</label><br>
+								</td>
+						</tr>
+									
+					</tbody>
+				</table>
+
+				<br>
+				<p><input value="Registracija" class="button defaultButton" type="submit"> <input value="Prekliči" class="button" onclick="document.location.href='https://ojs.zrc-sazu.si/primerjalna_knjizevnost/index'" type="button"></p>
+				<br>
+				<p><span class="formRequired">* označuje obvezno polje</span></p>
+				<div id="privacyStatement"></div>
+
+				</form>
+				
+				<br><br>
+			
+		</div>
+		
+    </body>
+
+</html>
