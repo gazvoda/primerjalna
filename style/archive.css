@@ -25,7 +25,7 @@ h3 {
 
 .issueCoverDescription {
 	position: absolute;
-	margin-left: 14%;
+	margin-left: 250px;
 }
 
 #nums {
@@ -39,4 +39,10 @@ html *
    margin: 0;
    font-weight: normal;
    font-family: 'Raleway', sans-serif !important;
+}
+
+.header {
+	background-image:url(../assets/background-header-image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }

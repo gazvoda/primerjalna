@@ -50,7 +50,7 @@ h1, h2, h3, h4, p {
 p {
 	text-align: center;
 	padding-left: 150px;
-	
+
 }
 
 h5 {
@@ -58,7 +58,7 @@ h5 {
 }
 
 #pageFooter {
-	text-align: center;	
+	text-align: center;
 }
 
 #separator {
@@ -95,4 +95,10 @@ html *
    color: #110E12; /*color: #2f2f2f;*/
    margin: 0;
    font-family: 'Raleway', sans-serif !important;
+}
+
+.header {
+	background-image:url(../assets/background-header-image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
