@@ -9,6 +9,20 @@
 	margin-right: auto;
 }
 
+#lostPasswordTable {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.textRes {
+	margin-left: 30%;
+	padding: 0;
+	position: relative;
+	text-align: left;
+	width: 800 px;
+}
+
 .value {
 	padding-left: 50px;
 	padding-bottom: 5px;
@@ -55,16 +69,25 @@ h5 {
 	margin-bottom: 40px;
 }
 
+
+
 .address {
 	text-align: left;
 	float: left;
-	margin-left: 30%;
+	margin-left: 20%;
+}
+
+.clear_separator {
+	border-bottom: solid 1px #ffffff;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .contactNumber {
 	text-align: left;
 	float: right;
-	margin-right: 50%;
+	margin-right: 57%;
 }
 
 html *

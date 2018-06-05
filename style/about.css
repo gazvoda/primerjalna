@@ -1,17 +1,31 @@
-#content {
+
+.contents_reg {
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+.drugo {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .separator {
 	border-bottom: solid 1px #b690c1;
 	width: 700px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 40px;
+	padding-top: 20px;
 	padding-bottom: 40px;
+}
+
+.clear_separator {
+	border-bottom: solid 1px #ffffff;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
 }
 
 .subsection1 {
@@ -24,29 +38,75 @@
 	text-align: left;
 }
 
-.subsection {
+.politikaRubrik {
 	margin-left: auto;
 	margin-right: auto;
 	margin-left: 26%;
+	margin-right: 5%;
+}
+
+.button {
+	border-radius: 25px;
+	background: #b690c1;
+	border: 2px solid #b690c1;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.button1 {
+	border-radius: 20px;
+	background: #ffffff;
+	border: 1px solid #000000;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.prispevki {
+	margin-left: auto;
+	margin-right: auto;
+	margin-left: 26%;
+	margin-left: 26%;
+}
+
+.center {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.address {
+	text-align: left;
+	float: left;
+	margin-left: 20%;
+}
+
+.contactNumber {
+	text-align: left;
+	float: right;
+	margin-right: 57%;
+}
+
+#content {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#aboutThisPublishingSystem {
+	margin-left: auto;
+	margin-right: auto;
+	margin-left: 26%;
+	margin-left: 26%;
+	width: 800px;
 }
 
 #col1, #col2, #col3 {
-	display: inline-block; 
-	*display: inline; 
 	vertical-align: top; 
-
-}
-
-#col1 {
-	width: 25%;
-}
-
-#col2 {
-	width: 50%;
 }
 
 #col3 {
-	width: 25%;
+	padding-right: 50px;
 }
 
 h2, h4 {
@@ -59,7 +119,7 @@ h4 {
 
 h5 {
    font-weight: normal;
-   font-size: 13px;
+   font-size: 14px;
 }
 
 
