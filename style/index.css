@@ -1,0 +1,111 @@
+.container-header {
+    height: 240px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;                  /* establish flex container */
+    flex-direction: column;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    /*background: #f1f1f1;*/
+    padding-top: 85px;
+}
+
+h1 {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 43px;
+    padding-bottom: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#separator {
+	border-bottom: solid 1px #866291;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+.container-trenutna {
+    height: 780px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /*background: #f1f1f1;*/
+}
+
+h2 {
+    padding-top: 0px;
+}
+
+.row {
+    height: 660px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /*background: #fff;*/
+}
+
+.container-kazalo {
+    width: 690px;
+    /*background: #ddd;*/
+}
+
+.container-stevilka {
+    width: 240px;
+    /*background: #f2f2f2;*/
+}
+
+a {
+    color: #0062FF;
+}
+
+.container-kazalo p {
+    font-style: italic;
+    padding-top: 8px;
+}
+
+#trenutna-stevilka-img {
+    width: 240px;
+    height: 360px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.container-osebje {
+    height: 330px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /*background: #f1f1f1;*/
+}
+
+.address {
+	text-align: left;
+	float: left;
+	margin-left: 20%;
+    padding-bottom: 60px;
+}
+
+.contactNumber {
+	text-align: left;
+	float: right;
+	margin-right: 57%;
+}
