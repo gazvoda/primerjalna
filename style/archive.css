@@ -42,7 +42,5 @@ html *
 }
 
 .header {
-	background-image:url(../assets/background-header-image.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+	height: 120px;
 }

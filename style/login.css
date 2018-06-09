@@ -41,6 +41,23 @@ h1, h2, h3, h4, p {
 	margin-left: 50px;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	height: 36px;
+	width: 95px;
+	color: #fff;
+	font-size: 14px;
+}
+
+#ponastavi-geslo {
+	border-radius: 25px;
+	background: #b690c1;
+	border: 2px solid #b690c1;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 36px;
+	width: 140px;
+	color: #fff;
+	font-size: 14px;
+	margin-left: 0px;
 }
 
 #loginRemember {
@@ -49,7 +66,7 @@ h1, h2, h3, h4, p {
 
 p {
 	text-align: center;
-	padding-left: 150px;
+	padding-left: 200px;
 
 }
 
@@ -98,7 +115,5 @@ html *
 }
 
 .header {
-	background-image:url(../assets/background-header-image.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+	height: 120px;
 }

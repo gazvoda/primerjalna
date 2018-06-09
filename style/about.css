@@ -46,11 +46,15 @@
 }
 
 .button {
+	height: 36px;
+	width: 95px;
 	border-radius: 25px;
 	background: #b690c1;
 	border: 2px solid #b690c1;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	color: #fff;
+	font-size: 14px;
 }
 
 .button1 {
@@ -59,6 +63,10 @@
 	border: 1px solid #000000;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	height: 36px;
+	width: 95px;
+
+	font-size: 14px;
 }
 
 .prispevki {
@@ -133,7 +141,12 @@ html *
 }
 
 .header {
-	background-image:url(../assets/background-header-image.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+	height: 120px;
+}
+
+.separator-header {
+	border-bottom: solid 1px #b690c1;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
 }
