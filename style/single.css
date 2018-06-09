@@ -1,0 +1,15 @@
+.container-header {
+    height: 120px;
+}
+
+.separator-header {
+	border-bottom: solid 1px #b690c1;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+    margin-bottom: 43px;
+}
+
+.container-trenutna {
+    height: 715px;
+}
