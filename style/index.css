@@ -109,3 +109,7 @@ a {
 	float: right;
 	margin-right: 57%;
 }
+
+h5 {
+    font-weight: normal !important;
+}
